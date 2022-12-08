@@ -99,7 +99,7 @@ const FilmWatch: FunctionComponent<FilmWatchProps & getWatchReturnedType> = ({
             (detail as DetailMovie).title || (detail as DetailTV).name
           } ${
             media_type === "tv" ? `- Season ${seasonId} - Ep ${episodeId}` : ""
-          } | Moonlight`}
+          } | Platex`}
         />
       )}
 
@@ -110,7 +110,7 @@ const FilmWatch: FunctionComponent<FilmWatchProps & getWatchReturnedType> = ({
             className="h-10 w-10 rounded-full object-cover"
           />
           <p className="text-xl text-white font-medium tracking-wider uppercase">
-            Moon<span className="text-primary">light</span>
+            Pla<span className="text-primary">tex</span>
           </p>
         </Link>
         <button onClick={() => setIsSidebarActive((prev) => !prev)}>

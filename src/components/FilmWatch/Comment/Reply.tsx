@@ -37,13 +37,14 @@ const Reply: FunctionComponent<ReplyProps> = ({ commendId }) => {
       ) {
         addDoc(collection(db, "replyTo-admin"), {
           user: {
-            displayName: "Vì anh  đâu có biết",
-            email: "huuphuoc5@gmail.com",
+            displayName: "Neppixel",
+            email: "birajrai.official@gmail.com",
             emailVerified: false,
-            photoURL: "https://i.ibb.co/zrXfKsJ/catface-7.jpg",
+            photoURL:
+              "https://meratopic.com/wp-content/uploads/2021/10/minecraft-allay-2-1024x576-1-1.jpg",
             uid: "Z3eRARZ9jlftBLA6u0g8MWABkwo2",
           },
-          value: "ghê vậy shao",
+          value: "Hello World!",
           reactions: {
             CZGmXpePYsd1YryQR3C8xA5YOzb2: "angry",
             GMaGmpy8ZaRBEhtaoZJdd9pNNXz1: "haha",
@@ -55,7 +56,7 @@ const Reply: FunctionComponent<ReplyProps> = ({ commendId }) => {
           //   DyXuUkhd9aTbJIeUn8Sgagoiv042: "love",
           // },
           createdAt: Timestamp.fromDate(
-            new Date("Sat Aug 06 2022 10:10:32 GMT+0700 (Indochina Time)")
+            new Date("Sat Aug 06 2022 10:10:32 GMT+0700 (Nepali Time)")
           ),
           isEdited: false,
         });

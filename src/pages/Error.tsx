@@ -1,14 +1,14 @@
 import { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
-import { useCurrentViewportView } from "../hooks/useCurrentViewportView";
+// import { useCurrentViewportView } from "../hooks/useCurrentViewportView";
 
 interface ErrorProps {}
 
 const Error: FunctionComponent<ErrorProps> = () => {
-  const { isMobile } = useCurrentViewportView();
+  // const { isMobile } = useCurrentViewportView();
   return (
     <>
-      {!isMobile && (
+      {/* {!isMobile && (
         <video
           autoPlay
           muted
@@ -21,7 +21,7 @@ const Error: FunctionComponent<ErrorProps> = () => {
             type="video/mp4"
           />
         </video>
-      )}
+      )} */}
 
       <div className="md:bg-black/60 bg-dark min-h-screen tw-flex-center">
         <div>

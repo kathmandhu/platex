@@ -2,18 +2,18 @@ import { FunctionComponent, useState } from "react";
 import SignIn from "../components/Auth/SignIn";
 import SignUp from "../components/Auth/SignUp";
 import Title from "../components/Common/Title";
-import { useCurrentViewportView } from "../hooks/useCurrentViewportView";
+// import { useCurrentViewportView } from "../hooks/useCurrentViewportView";
 
 interface AuthProps {}
 
 const Auth: FunctionComponent<AuthProps> = () => {
   const [isSignIn, setIsSignIn] = useState(true);
-  const { isMobile } = useCurrentViewportView();
+  // const { isMobile } = useCurrentViewportView();
   return (
     <>
       <Title value={"Sign In | Platex"} />
 
-      {!isMobile && (
+      {/* {!isMobile && (
         <video
           autoPlay
           muted
@@ -26,7 +26,7 @@ const Auth: FunctionComponent<AuthProps> = () => {
             type="video/mp4"
           />
         </video>
-      )}
+      )} */}
 
       <div className="md:bg-black/80 bg-dark min-h-screen">
         {!isSignIn && <SignUp setIsSignIn={setIsSignIn} isSignIn={isSignIn} />}

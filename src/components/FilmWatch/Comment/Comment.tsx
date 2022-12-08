@@ -70,15 +70,14 @@ const Comment: FunctionComponent<CommentProps> = ({ id, media_type }) => {
         ) {
           setDoc(doc(db, `${media_type}-${id as number}`, "admin"), {
             user: {
-              displayName:
-                "Anh có thể làm tính năng reaction nhưng sẽ không bao giờ được em react story",
-              email: "huuphuoc@gmail.com",
+              displayName: "Platex",
+              email: "platex@platex.tk",
               emailVerified: false,
-              photoURL: "https://i.ibb.co/CJqGvY6/satthudatinh.jpg",
+              photoURL:
+                "https://meratopic.com/wp-content/uploads/2021/10/minecraft-allay-2-1024x576-1-1.jpg",
               uid: "CZGmXpePYsd1YryQR3C8xA5YOzb2",
             },
-            value:
-              "Ngoài bình luận, trang web còn có chức năng thả cảm xúc, xem thông tin những người thả cảm xúc, (cảm xúc được nhiều người thả sẽ được ưu tiên hiện đầu), trả lời bình luận, chỉnh sửa, xóa, ẩn bình luận, sắp xếp bình luận, tải thêm bình luận.",
+            value: "Make sure to Comment <3",
             reactions: {
               "3RkuRS4zSqadAkKDqSfTjCzwzF92": "haha",
               GMaGmpy8ZaRBEhtaoZJdd9pNNXz1: "love",
@@ -98,7 +97,7 @@ const Comment: FunctionComponent<CommentProps> = ({ id, media_type }) => {
             //   cn9xgPSUVlNzGasKyxoTTvFnVWk1: "wow",
             // },
             createdAt: Timestamp.fromDate(
-              new Date("Sat Aug 03 2022 10:10:32 GMT+0700 (Indochina Time)")
+              new Date("Sat Aug 03 2022 10:10:32 GMT+0700 (Indian Time)")
             ),
             isEdited: true,
           });

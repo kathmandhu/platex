@@ -106,7 +106,7 @@ const FilmDetail: FC<FilmInfo> = ({ similar, videos, detail, ...others }) => {
         <Title
           value={`${
             (detail as DetailMovie).title || (detail as DetailTV).name
-          } | Moonlight`}
+          } | Platex`}
         />
       )}
 
@@ -117,7 +117,7 @@ const FilmDetail: FC<FilmInfo> = ({ similar, videos, detail, ...others }) => {
             className="h-10 w-10 rounded-full object-cover"
           />
           <p className="text-xl text-white font-medium tracking-wider uppercase">
-            Moon<span className="text-primary">light</span>
+            Pla<span className="text-primary">tex</span>
           </p>
         </Link>
         <button onClick={() => setIsSidebarActive((prev) => !prev)}>
