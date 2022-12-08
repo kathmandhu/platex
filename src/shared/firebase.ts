@@ -18,7 +18,7 @@ const firebaseConfig = {
   storageBucket: "freeies.appspot.com",
   messagingSenderId: "1058228808320",
   appId: "1:1058228808320:web:ca8a004f6472d502df5465",
-  measurementId: "G-VKQ6C6D5L9"
+  measurementId: "G-VKQ6C6D5L9",
 };
 
 // const firebaseConfig = {
