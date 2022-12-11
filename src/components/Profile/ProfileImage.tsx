@@ -15,8 +15,8 @@ const ProfileImage: FunctionComponent<ProfileImageProps> = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.quotable.io/random")
-      .then((res) => setQuote(res.data.content));
+      .get("https://simp-api.tk/lines/random")
+      .then((res) => setQuote(res.data.line));
   }, []);
 
   const changeProfileImage = async (e: ChangeEvent<HTMLInputElement>) => {
